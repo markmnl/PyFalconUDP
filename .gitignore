@@ -1,0 +1,147 @@
+﻿# ==============================
+# Visual Studio stuff to ignore
+# =============================
+
+# Visual Studio User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Others
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
+
+# =========================
+# Windows stuff to ignore
+# =========================
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+
+# Folder config file
+Desktop.ini
+
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ======================
+# Python stuff to ignore
+# ======================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+# C extensions
+*.so
+
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+
+# Translations
+*.mo
+
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+
+# Rope
+.ropeproject
+
+
+# Django stuff:
+*.log
+*.pot
+
+
+# Sphinx documentation
+docs/_build/
