@@ -27,6 +27,7 @@
     <Folder Include="falconudp\test\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="falconudp\falconpeer.py" />
     <Compile Include="falconudp\test\test_location.py" />
     <Compile Include="falconudp\test\test_utils.py" />
     <Compile Include="falconudp\test\__init__.py" />
