@@ -13,6 +13,9 @@
     <OutputPath>.</OutputPath>
     <Name>PyFalconUDP</Name>
     <RootNamespace>PyFalconUDP</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.3</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,6 +30,7 @@
     <Folder Include="falconudp\test\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="falconudp\enums.py" />
     <Compile Include="falconudp\falconpeer.py" />
     <Compile Include="falconudp\test\test_location.py" />
     <Compile Include="falconudp\test\test_utils.py" />
@@ -39,6 +43,9 @@
     <Content Include="LICENSE.txt" />
     <Content Include="MANIFEST.in" />
     <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
