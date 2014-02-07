@@ -35,17 +35,16 @@ class FalconPeer():
         """TODO"""
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind(('', self._port))
-        sock.listen(0) # presumably this is irrelevant for dgram sockets?
         self._socket = sock
         self._started = True
-        _log(LogLevel.Info, 'Started, listening on port: {0}.'.format(_port))
+        self._log(LogLevel.Info, 'Started, listening on port: {0}.'.format(self._port))
 
     def stop(self):
         """TODO"""
-        _check_started()
+        self._check_started()
         # TODO
         self._started = False
-        _log(LogLevel.Info, 'Stopped.')
+        self._log(LogLevel.Info, 'Stopped.')
 
 
 
