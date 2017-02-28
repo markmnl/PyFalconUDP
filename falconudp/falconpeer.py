@@ -28,7 +28,6 @@ class FalconPeer():
                                                         msg)
             print(line) # TODO log instead
 
-
     def _check_started(self):
         if not hasattr(self, '_started') or not self._started:
             raise Exception('not started!')
@@ -38,8 +37,8 @@ class FalconPeer():
             if say_bye:
                 pass #TODO 
             del self._peers[addr]
-            _log(LogLevel.Info, 'dropped {0}, {1}'.format(addr, reason)
-    
+            _log(LogLevel.Info, 'dropped {0}, {1}'.format(addr, reason))
+
     def _recv(self):
         self.check_started()
         (size, addr) = self._socket.recvfrom_into(self._recv_memview, MAX_DATAGRAM_SIZE)
